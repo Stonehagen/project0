@@ -1,0 +1,34 @@
+$margin1: 50px;
+
+%top-header {
+	margin-top: $margin1;
+	margin-bottom: $margin1;
+	text-align: center;
+}
+
+header {
+	@extend %top-header;
+}
+
+nav {
+	margin-bottom: $margin1;
+	
+	li {
+		margin: auto;
+	}
+}
+
+.page-heading {
+	margin-bottom: 30px;
+	color: #333333;
+}
+
+#img-dog {
+	border-radius: 5%;
+}
+
+@media (min-width: 800px) {
+	#img-dog {
+		width: 500px;
+	}
+}
