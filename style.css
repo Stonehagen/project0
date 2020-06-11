@@ -13,6 +13,15 @@ nav li {
 	margin: auto
 }
 
+.blogpost {
+	margin: 20px 0px 20px 0px;
+}
+
+.blogpost h6 {
+	margin-top: 20px;
+	text-decoration: underline;
+}
+
 .page-heading {
 	margin-bottom: 30px;
 	color: #333333;
