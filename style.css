@@ -31,8 +31,27 @@ nav li {
 	border-radius: 5%;
 }
 
-@media (min-width: 800px) {
+#h-dog {
+	text-align: center;
+}
+
+.centered-text {
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.centered-cont {
+	text-align: center;
+}
+
+@media (min-width: 600px) {
 	#img-dog {
+		width: 500px;
+	}
+	
+	.centered-text {
 		width: 500px;
 	}
 }
