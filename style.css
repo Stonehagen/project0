@@ -1,23 +1,16 @@
----
----
-$margin1: 50px;
 
-%top-header {
-	margin-top: $margin1;
-	margin-bottom: $margin1;
+header {
+	margin-top: 50px;
+	margin-bottom: 50px;
 	text-align: center;
 }
 
-header {
-	@extend %top-header;
+nav {
+	margin-bottom: 50px;
 }
 
-nav {
-	margin-bottom: $margin1;
-	
-	li {
-		margin: auto;
-	}
+nav li {
+	margin: auto
 }
 
 .page-heading {
